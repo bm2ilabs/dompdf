@@ -84,7 +84,7 @@ class Text extends AbstractRenderer
         
         if ( ! class_exists( 'I18N_Arabic' ) ){
 
-            require_once( DOMPDF_DIR . "/I18N/Arabic/Glyphs.php" );
+            require_once( DOMPDF_DIR . "src/I18N/Arabic/Glyphs.php" );
             $Arabic = new I18N_Arabic_Glyphs('Glyphs');
             $text = $Arabic->utf8Glyphs($text);
 
