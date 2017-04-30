@@ -11,6 +11,7 @@ namespace Dompdf\Renderer;
 
 use Dompdf\Adapter\CPDF;
 use Dompdf\FontMetrics;
+use I18N_Arabic_Glyphs;
 use Dompdf\Frame;
 
 /**
